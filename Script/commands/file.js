@@ -7,7 +7,7 @@ module.exports.config = {
  commandCategory: "Admin",
  usages: "file | file all | file <name>",
  cooldowns: 0,
- usePrefix: true
+ usePrefix: /
 };
 
 const fs = require("fs-extra");
